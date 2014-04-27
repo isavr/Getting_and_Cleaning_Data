@@ -28,4 +28,5 @@ The attached R script (run_analysis.R) performs following actions to tidy up the
       "tBodyAcc_std_Y"
       "tBodyAcc_std_Z"
       "tGravityAcc_mean_X"
-  5. The script creates a 2nd, independent tidy data set with the average of each measurement for each activity and each subject.
+  5. The script creates a 2nd, independent tidy data set with the average of each measurement for each activity and each subject. It is saved to "AnalysisResult.txt"
+   The created data frame is 180x68 because there are 30 subjects and 6 activities, so there would be 30*6=180 rows. Note that the provided R script has assumptions on locations of files.
