@@ -3,7 +3,6 @@ Getting and Cleaning Data
 
 coursera.org course project
 
-
     Put run_analysis.R to , say, C:\Users\Username\Documents\R\
 
     in RStudio: setwd("C:\\Users\\Username\\Documents\\R\\")
@@ -14,4 +13,4 @@ coursera.org course project
 
     AnalysisResult.txt -- 225 Kb, a 180x68 data frame
 
-    Use data <- read.table("AnalysisResult.txt") to read the latter. It is 180x68 because there are 30 subjects and 6 activities, thus "for each activity and each subject" means 30*6=180 rows. Note that the provided R script has assumptions on locations of files.
+   The created data frame is 180x68 because there are 30 subjects and 6 activities, so there would be 30*6=180 rows. Note that the provided R script has assumptions on locations of files.
